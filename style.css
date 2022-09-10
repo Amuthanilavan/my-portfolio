@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color:#000000;
+    font-family: 'Dosis';
+
+}
+.navigation
+{
+    height: 100px;
+    width:calc(100% - 500px);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content: space-between;
+}
+.links
+{
+
+}
+.link
+{
+    color: rgb(253, 254, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: large;
+    margin: 0 15px;
+}
+.Contact-us{
+    border: none;
+    font-size: x-large;
+    background-color: #9cfceb;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 0 0 10px black;
+}
+.body{
+    height: calc(100vh - 100px);
+    width: calc(100% - 500px);
+    margin: 0 auto;
+   display: flex;
+}
+.image,.About_text{
+    height: 100%;
+    width: 100%;
+}
+.image
+{
+ background-color:#000000;
+ 
+}
+.About_text{
+   
+  
+}
+.name{
+    font-size: 30px;
+    padding: 20px;
+    color: rgb(28, 171, 190);
+}
+.details{
+    text-transform: capitalize;
+    font-size: 70px;
+    padding: 20px;
+    font-size: 90;
+    font-family: 'Montserrat', sans-serif;
+    color: antiquewhite;
+}
+.orgin{
+    text-transform: capitalize;
+    font-size: 40px;
+    padding: 10px;
+    color: rgb(11, 183, 206);
+}
+.para{
+    font-size: 30px;
+    padding: 10px;
+    color: aliceblue;
+}
+.Download{
+    border: 5px;
+    font-size: 30px;
+    padding: 10px;
+    color: rgb(12, 207, 233);
+    background-color: rgb(11, 152, 235);
+    box-shadow:0,0 10px rgb(9, 219, 219) ;
+    border-radius: 10px;
+    margin: 10px;
+}
